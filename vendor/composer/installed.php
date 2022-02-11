@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'acf07a6a707027d80856cf8f91bc57c6edec7817',
+        'name' => 'hyperdigital/4msports',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'composer/installers' => array(
+            'pretty_version' => 'v2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/./installers',
+            'aliases' => array(),
+            'reference' => 'a241e78aaeb09781f5f5b92ac01ffd13ab43e5e8',
+            'dev_requirement' => false,
+        ),
+        'hyperdigital/4msports' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'acf07a6a707027d80856cf8f91bc57c6edec7817',
+            'dev_requirement' => false,
+        ),
+        'wpackagist-plugin/cache-control' => array(
+            'pretty_version' => '2.2.5',
+            'version' => '2.2.5.0',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../wp-content/plugins/cache-control',
+            'aliases' => array(),
+            'reference' => 'tags/2.2.5',
+            'dev_requirement' => false,
+        ),
+    ),
+);
