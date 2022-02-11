@@ -1,6 +1,6 @@
 {
-  "name": "entredulcesalgodones",
-  "description": "entredulcesalgodones website",
+  "name": "hyperdigital/4msports",
+  "description": "4msports-server website",
   "repositories": [
     {
       "type": "composer",
@@ -8,11 +8,19 @@
     }
   ],
   "require": {
-    "johnpbloch/wordpress-core-installer": "*",
+    "johnpbloch/wordpress-core-installer": "^1.0",
     "johnpbloch/wordpress-core": "*",
     "wpackagist-plugin/cache-control": "^2.2",
     "wpackagist-theme/neve": "^3.1",
     "wpackagist-plugin/wordpress-seo": "^18.1",
     "wpackagist-plugin/woocommerce": "^6.2"
+  },
+  "extra":{
+    "installer-paths": {
+      "wordpress/wp-content/{$name}/": ["type:wordpress-muplugin"],
+      "wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "wordpress"
   }
 }

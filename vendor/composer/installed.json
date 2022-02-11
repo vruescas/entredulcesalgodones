@@ -273,7 +273,7 @@
             "type": "wordpress-plugin",
             "installation-source": "dist",
             "homepage": "https://wordpress.org/plugins/cache-control/",
-            "install-path": "../../wp-content/plugins/cache-control"
+            "install-path": "../../wordpress/wp-content/plugins/cache-control"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
@@ -294,7 +294,7 @@
             "type": "wordpress-plugin",
             "installation-source": "dist",
             "homepage": "https://wordpress.org/plugins/woocommerce/",
-            "install-path": "../../wp-content/plugins/woocommerce"
+            "install-path": "../../wordpress/wp-content/plugins/woocommerce"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
@@ -315,7 +315,7 @@
             "type": "wordpress-plugin",
             "installation-source": "dist",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/",
-            "install-path": "../../wp-content/plugins/wordpress-seo"
+            "install-path": "../../wordpress/wp-content/plugins/wordpress-seo"
         },
         {
             "name": "wpackagist-theme/neve",
@@ -336,7 +336,7 @@
             "type": "wordpress-theme",
             "installation-source": "dist",
             "homepage": "https://wordpress.org/themes/neve/",
-            "install-path": "../../wp-content/themes/neve"
+            "install-path": "../../wordpress/wp-content/themes/neve"
         }
     ],
     "dev": true,
