@@ -1,0 +1,13 @@
+{
+  "name": "hyperdigital/4msports",
+  "description": "4msports-server website",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "wpackagist-plugin/cache-control": "^2.2"
+  }
+}
