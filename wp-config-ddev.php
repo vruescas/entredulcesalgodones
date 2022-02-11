@@ -22,7 +22,7 @@ if (getenv('IS_DDEV_PROJECT') == 'true') {
   define('WP_HOME', 'https://entredulcesalgodones.ddev.site');
   
   /** WP_SITEURL location */
-  define('WP_SITEURL', WP_HOME . '/');
+  define('WP_SITEURL', WP_HOME . '/wordpress');
 }
 
 /** Enable debug */
