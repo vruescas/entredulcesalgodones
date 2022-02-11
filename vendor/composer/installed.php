@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'cf1e08bd3b8b9cc9116e2e6a0a52b981698d17dc',
+        'reference' => 'c2bffa55fad65317b3a086d74a4d200983604f35',
         'name' => 'hyperdigital/4msports',
         'dev' => true,
     ),
@@ -25,7 +25,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'cf1e08bd3b8b9cc9116e2e6a0a52b981698d17dc',
+            'reference' => 'c2bffa55fad65317b3a086d74a4d200983604f35',
             'dev_requirement' => false,
         ),
         'johnpbloch/wordpress-core' => array(
