@@ -8,12 +8,12 @@
     }
   ],
   "require": {
-    "johnpbloch/wordpress-core-installer": "^1.0",
+    "johnpbloch/wordpress-core-installer": "*",
     "johnpbloch/wordpress-core": "*",
-    "wpackagist-plugin/cache-control": "^2.2",
-    "wpackagist-theme/neve": "^3.1",
-    "wpackagist-plugin/wordpress-seo": "^18.1",
-    "wpackagist-plugin/woocommerce": "^6.2"
+    "wpackagist-plugin/cache-control": "*",
+    "wpackagist-theme/neve": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/woocommerce": "*"
   },
   "extra":{
     "installer-paths": {
